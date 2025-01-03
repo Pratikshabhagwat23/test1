@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-container{
+    justify-content: center;
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100wh;
+}
+img{
+    height: 41px;
+    width: 180px;
+
+}
+ul{
+    display: flex;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.icons img{
+    height: 28px;
+    width: 28px;
+}
+.container2{
+    height: 100vh;
+    width: 100wh;
+    background-image: url(imgs/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+.box1{
+    /* height: 350px; */
+    width: 370px;
+    background-color: #FFF3E3;
+    position: absolute;
+    left: 730px;
+    top: 300px;
+    padding: 20px;
+    padding-top: 40px;
+    justify-content: space-evenly;
+    
+}
+button{
+    background-color: #B88E2F;
+    border: none;
+    padding: 15px;
+}
+.container3 h1{
+    padding-left: 600px;
+    padding-top: 20px;
+}
+.container3 p{
+    padding-left: 560px;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 30px;
+    padding-left: 100px;
+}
+.box2 img{
+    height: 480px;
+    width: 381px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* padding-bottom: 90px; */
+    
+}
+.text1{
+    padding-right: 30px;
+    margin-right: 150px;
+}
+.text2{
+    margin-right: 150px;
+}
+.container4 h1{
+    padding-left: 588px;
+    padding-top: 20px;
+    /* height: 600px; */
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    gap: 20px;
+}
+.img img{
+    height: 301px;
+    width: 285px;
+
+}
+.price{
+    width: 102px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    /* opacity: 0.1; */
+    justify-content: space-between;
+    gap: 10px;
+}
